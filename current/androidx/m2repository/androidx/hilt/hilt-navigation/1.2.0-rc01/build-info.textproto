@@ -1,0 +1,29 @@
+version: "1.2.0-rc01"
+dependency_list {
+  dependency {
+    group_id: "androidx.annotation"
+    artifact_id: "annotation"
+    version: "1.1.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.navigation"
+    artifact_id: "navigation-runtime"
+    version: "2.5.1"
+    is_tip_of_tree: false
+  }
+}
+release_checklist {
+}
+build_id: "androidx.hilt"
+group_id: "androidx.hilt"
+artifact_id: "hilt-navigation"
+path: "/hilt/hilt-navigation"
+sha: "6b7a6df015aa856a7d6a61df2bfb8cd5f4abf905"
+require_same_version_group_build: false
+project_zip_path: "per-project-zips/androidx.hilt-hilt-navigation-all-11875385-1.2.0-rc01.zip"
+kotlin_version: "1.9.24"
+dependency_constraint_list {
+}
+should_publish_docs: true
+is_kmp: false

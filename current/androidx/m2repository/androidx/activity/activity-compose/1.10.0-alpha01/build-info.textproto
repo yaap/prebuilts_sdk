@@ -1,0 +1,59 @@
+version: "1.10.0-alpha01"
+dependency_list {
+  dependency {
+    group_id: "androidx.activity"
+    artifact_id: "activity-ktx"
+    version: "1.10.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.compose.runtime"
+    artifact_id: "runtime"
+    version: "1.0.1"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.compose.runtime"
+    artifact_id: "runtime-saveable"
+    version: "1.0.1"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.compose.ui"
+    artifact_id: "ui"
+    version: "1.0.1"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.lifecycle"
+    artifact_id: "lifecycle-viewmodel"
+    version: "2.6.1"
+    is_tip_of_tree: false
+  }
+}
+release_checklist {
+}
+build_id: "androidx.activity"
+group_id: "androidx.activity"
+artifact_id: "activity-compose"
+path: "/activity/activity-compose"
+sha: "8e24ec7cf4ee1c5afe2b4a3a108f926420140662"
+require_same_version_group_build: true
+project_zip_path: "per-project-zips/androidx.activity-activity-compose-all-11954666-1.10.0-alpha01.zip"
+kotlin_version: "1.9.24"
+dependency_constraint_list {
+  dependency {
+    group_id: "androidx.activity"
+    artifact_id: "activity"
+    version: "1.10.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.activity"
+    artifact_id: "activity-ktx"
+    version: "1.10.0-alpha01"
+    is_tip_of_tree: true
+  }
+}
+should_publish_docs: true
+is_kmp: false

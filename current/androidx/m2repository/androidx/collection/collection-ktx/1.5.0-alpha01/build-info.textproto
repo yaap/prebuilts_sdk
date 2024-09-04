@@ -1,0 +1,29 @@
+version: "1.5.0-alpha01"
+dependency_list {
+  dependency {
+    group_id: "androidx.collection"
+    artifact_id: "collection"
+    version: "1.5.0-alpha01"
+    is_tip_of_tree: true
+  }
+}
+release_checklist {
+}
+build_id: "androidx.collection"
+group_id: "androidx.collection"
+artifact_id: "collection-ktx"
+path: "/collection/collection-ktx"
+sha: "3264c1f21ddfe2acf96a1d034f78367662cf9f65"
+require_same_version_group_build: true
+project_zip_path: "per-project-zips/androidx.collection-collection-ktx-all-11879057-1.5.0-alpha01.zip"
+kotlin_version: "1.9.24"
+dependency_constraint_list {
+  dependency {
+    group_id: "androidx.collection"
+    artifact_id: "collection"
+    version: "1.5.0-alpha01"
+    is_tip_of_tree: true
+  }
+}
+should_publish_docs: true
+is_kmp: false

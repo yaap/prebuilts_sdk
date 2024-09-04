@@ -1,0 +1,359 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.fragment",
+    "module": "fragment-ktx",
+    "version": "1.8.0-rc01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.fragment",
+          "module": "fragment",
+          "version": {
+            "requires": "1.8.0-rc01"
+          },
+          "reason": "fragment-ktx is in atomic group androidx.fragment"
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-compose",
+          "version": {
+            "requires": "1.8.0-rc01"
+          },
+          "reason": "fragment-ktx is in atomic group androidx.fragment"
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-testing",
+          "version": {
+            "requires": "1.8.0-rc01"
+          },
+          "reason": "fragment-ktx is in atomic group androidx.fragment"
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-testing-manifest",
+          "version": {
+            "requires": "1.8.0-rc01"
+          },
+          "reason": "fragment-ktx is in atomic group androidx.fragment"
+        }
+      ],
+      "files": [
+        {
+          "name": "fragment-ktx-1.8.0-rc01-sources.jar",
+          "url": "fragment-ktx-1.8.0-rc01-sources.jar",
+          "size": 6462,
+          "sha512": "40f703b1ee270db43a4c6b93b042739a1926111599b5e86b14a1fbb4482acee6550ea96ebcd31be9371078e70591702ed526c4228f630000dae438ba4bf68eea",
+          "sha256": "9e8392c5b4d7babc664fd1628785e485bea183d3ea8915680d5da4b78cd8b205",
+          "sha1": "d39e296ca26c2a921ed27fb592c5de9d643cfdcd",
+          "md5": "37ab803dfdbd12c314f5cc7736524dcb"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.activity",
+          "module": "activity-ktx",
+          "version": {
+            "requires": "1.8.1"
+          },
+          "reason": "Mirror fragment dependency graph for -ktx artifacts"
+        },
+        {
+          "group": "androidx.collection",
+          "module": "collection-ktx",
+          "version": {
+            "requires": "1.1.0"
+          },
+          "reason": "Mirror fragment dependency graph for -ktx artifacts"
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.2.0"
+          },
+          "reason": "Mirror fragment dependency graph for -ktx artifacts"
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment",
+          "version": {
+            "requires": "1.8.0-rc01"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-core-ktx",
+          "version": {
+            "requires": "2.6.1"
+          },
+          "reason": "Mirror fragment dependency graph for -ktx artifacts"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-ktx",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate-ktx",
+          "version": {
+            "requires": "1.2.1"
+          },
+          "reason": "Mirror fragment dependency graph for -ktx artifacts"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.fragment",
+          "module": "fragment",
+          "version": {
+            "requires": "1.8.0-rc01"
+          },
+          "reason": "fragment-ktx is in atomic group androidx.fragment"
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-compose",
+          "version": {
+            "requires": "1.8.0-rc01"
+          },
+          "reason": "fragment-ktx is in atomic group androidx.fragment"
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-testing",
+          "version": {
+            "requires": "1.8.0-rc01"
+          },
+          "reason": "fragment-ktx is in atomic group androidx.fragment"
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-testing-manifest",
+          "version": {
+            "requires": "1.8.0-rc01"
+          },
+          "reason": "fragment-ktx is in atomic group androidx.fragment"
+        }
+      ],
+      "files": [
+        {
+          "name": "fragment-ktx-1.8.0-rc01.aar",
+          "url": "fragment-ktx-1.8.0-rc01.aar",
+          "size": 27677,
+          "sha512": "9efa2619aa8514eb5365ee32d80fff4be087d7941277b4794dc986ee2023094c93323d1d1a4190675aabc57b08d7b5cdb24c6efa3cd70fe425a6a4bc3b89d813",
+          "sha256": "895502c7e4463197d6423c4fe97e72c2be99764678da976ff47cda39904ce1ba",
+          "sha1": "3f970fadc7a4d75ffe0700bb0659b6ae18e2eab8",
+          "md5": "26447a08367bbabffe90e641b62d0816"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.activity",
+          "module": "activity-ktx",
+          "version": {
+            "requires": "1.8.1"
+          },
+          "reason": "Mirror fragment dependency graph for -ktx artifacts"
+        },
+        {
+          "group": "androidx.collection",
+          "module": "collection-ktx",
+          "version": {
+            "requires": "1.1.0"
+          },
+          "reason": "Mirror fragment dependency graph for -ktx artifacts"
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.2.0"
+          },
+          "reason": "Mirror fragment dependency graph for -ktx artifacts"
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment",
+          "version": {
+            "requires": "1.8.0-rc01"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-core-ktx",
+          "version": {
+            "requires": "2.6.1"
+          },
+          "reason": "Mirror fragment dependency graph for -ktx artifacts"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-ktx",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate-ktx",
+          "version": {
+            "requires": "1.2.1"
+          },
+          "reason": "Mirror fragment dependency graph for -ktx artifacts"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.fragment",
+          "module": "fragment",
+          "version": {
+            "requires": "1.8.0-rc01"
+          },
+          "reason": "fragment-ktx is in atomic group androidx.fragment"
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-compose",
+          "version": {
+            "requires": "1.8.0-rc01"
+          },
+          "reason": "fragment-ktx is in atomic group androidx.fragment"
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-testing",
+          "version": {
+            "requires": "1.8.0-rc01"
+          },
+          "reason": "fragment-ktx is in atomic group androidx.fragment"
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-testing-manifest",
+          "version": {
+            "requires": "1.8.0-rc01"
+          },
+          "reason": "fragment-ktx is in atomic group androidx.fragment"
+        }
+      ],
+      "files": [
+        {
+          "name": "fragment-ktx-1.8.0-rc01.aar",
+          "url": "fragment-ktx-1.8.0-rc01.aar",
+          "size": 27677,
+          "sha512": "9efa2619aa8514eb5365ee32d80fff4be087d7941277b4794dc986ee2023094c93323d1d1a4190675aabc57b08d7b5cdb24c6efa3cd70fe425a6a4bc3b89d813",
+          "sha256": "895502c7e4463197d6423c4fe97e72c2be99764678da976ff47cda39904ce1ba",
+          "sha1": "3f970fadc7a4d75ffe0700bb0659b6ae18e2eab8",
+          "md5": "26447a08367bbabffe90e641b62d0816"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.fragment",
+          "module": "fragment",
+          "version": {
+            "requires": "1.8.0-rc01"
+          },
+          "reason": "fragment-ktx is in atomic group androidx.fragment"
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-compose",
+          "version": {
+            "requires": "1.8.0-rc01"
+          },
+          "reason": "fragment-ktx is in atomic group androidx.fragment"
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-testing",
+          "version": {
+            "requires": "1.8.0-rc01"
+          },
+          "reason": "fragment-ktx is in atomic group androidx.fragment"
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-testing-manifest",
+          "version": {
+            "requires": "1.8.0-rc01"
+          },
+          "reason": "fragment-ktx is in atomic group androidx.fragment"
+        }
+      ],
+      "files": [
+        {
+          "name": "fragment-ktx-1.8.0-rc01-versionMetadata.json",
+          "url": "fragment-ktx-1.8.0-rc01-versionMetadata.json",
+          "size": 4141,
+          "sha512": "adc0c7700389eddfdd51d42cf2f3f85887d41a09c141d54aa177d847e164d879945e4ac3f55d4781987f34d2954f7bcdb4a44c4b9d1fb37f1da864ecab0aa401",
+          "sha256": "fe8221b4d329b0d0e1a2d578c3459a1b9280eececff612ef58dff9602c30fcae",
+          "sha1": "dd65ccffb4051e027c95f8f9e3fd1875da7ca2ad",
+          "md5": "f83a4e03a0be030d73ccc4d3d6ed8830"
+        }
+      ]
+    }
+  ]
+}

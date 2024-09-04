@@ -1,0 +1,122 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.emoji",
+    "module": "emoji",
+    "version": "1.2.0-alpha03",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8-rc-1"
+    }
+  },
+  "variants": [
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "emoji-1.2.0-alpha03-sources.jar",
+          "url": "emoji-1.2.0-alpha03-sources.jar",
+          "size": 58966,
+          "sha512": "814d744825c6270061a0be54bf155c7f77d6b32a05443c552250722215db1cbe9ccdfc9357bb319c6417d2d55ac2d512a0046757a98f8faf20059fbb043034ee",
+          "sha256": "de642ad1c0d649ae5496b124915c00221f019eb39a134401d3efa1e187555be9",
+          "sha1": "f668a3fd28bf0092a7421c19d8222cc16ab8a0bd",
+          "md5": "f01481b41d280c3c2c9e2995f30a6a5f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "emoji-1.2.0-alpha03.aar",
+          "url": "emoji-1.2.0-alpha03.aar",
+          "size": 140847,
+          "sha512": "635005e5f8e52d348b69f56063c657e914f1846d464db75b64d75b8a98255c92ce76c33589943043d97231f8eb93ac6617c7675c7a3440ec5fa47785a0f074ef",
+          "sha256": "945d7ea21abe1190e64df2bbd7afc4cbc74f44431496e430911482b3c2409831",
+          "sha1": "a13678bdd48bec349ece0c2974d4ad556fa66c7b",
+          "md5": "2d6d59fc69acae4757bfaa79f80dc67d"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "emoji-1.2.0-alpha03.aar",
+          "url": "emoji-1.2.0-alpha03.aar",
+          "size": 140847,
+          "sha512": "635005e5f8e52d348b69f56063c657e914f1846d464db75b64d75b8a98255c92ce76c33589943043d97231f8eb93ac6617c7675c7a3440ec5fa47785a0f074ef",
+          "sha256": "945d7ea21abe1190e64df2bbd7afc4cbc74f44431496e430911482b3c2409831",
+          "sha1": "a13678bdd48bec349ece0c2974d4ad556fa66c7b",
+          "md5": "2d6d59fc69acae4757bfaa79f80dc67d"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "emoji-1.2.0-alpha03-versionMetadata.json",
+          "url": "emoji-1.2.0-alpha03-versionMetadata.json",
+          "size": 8269,
+          "sha512": "ecd6b9bdccbb58465da0a77eca85391d02a6c2b3a2d84ce5480c7807decdd053f12a711b29f722827b4348245343b84c9c0fecc42bc607b51885f5ff58f07542",
+          "sha256": "deae0a8dc6f3d55e4771fc700a80417e9d09e9d10485339d6192e1926ca496a7",
+          "sha1": "ebaa01620c84b7ff310297e4488042ab205bd3de",
+          "md5": "8f0e7e1223db0cd90469451fa8601f43"
+        }
+      ]
+    }
+  ]
+}

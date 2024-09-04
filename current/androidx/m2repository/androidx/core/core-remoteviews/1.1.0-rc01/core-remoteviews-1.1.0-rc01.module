@@ -1,0 +1,136 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.core",
+    "module": "core-remoteviews",
+    "version": "1.1.0-rc01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-remoteviews-1.1.0-rc01-sources.jar",
+          "url": "core-remoteviews-1.1.0-rc01-sources.jar",
+          "size": 20567,
+          "sha512": "080b47fa9c0f662e53cbcb046e31185da15ec4e893b6c8204675a9d4acf37409edc9a13bf8fb7c96a9a43e01935f29cce5b6d40fa1e7f112f32daedfb6ccdd1e",
+          "sha256": "7d312837eedb03d87705449224f030c042aa45d23aca0bc7e4732b65a957278e",
+          "sha1": "2cb2d02eb61ec8d9be463145aebf33a60484c021",
+          "md5": "481012ac5372a125af2615ad44256d2e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-remoteviews-1.1.0-rc01.aar",
+          "url": "core-remoteviews-1.1.0-rc01.aar",
+          "size": 54484,
+          "sha512": "3d799d538c85873ba70b814a93c4051e746f5d4a32330974d337bf832caf658564032d5fe6e3478093304514afc2e5c6920403c67798860825fea72ef0b9f204",
+          "sha256": "f3e84367858f1022ad86c9452986425534c6d9749c3916a93ab415162ea18f7a",
+          "sha1": "cc299540fd8dcc591aeab409ef46d2602211c5e7",
+          "md5": "69df9f47d029ea736444eab9c10a2105"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-remoteviews-1.1.0-rc01.aar",
+          "url": "core-remoteviews-1.1.0-rc01.aar",
+          "size": 54484,
+          "sha512": "3d799d538c85873ba70b814a93c4051e746f5d4a32330974d337bf832caf658564032d5fe6e3478093304514afc2e5c6920403c67798860825fea72ef0b9f204",
+          "sha256": "f3e84367858f1022ad86c9452986425534c6d9749c3916a93ab415162ea18f7a",
+          "sha1": "cc299540fd8dcc591aeab409ef46d2602211c5e7",
+          "md5": "69df9f47d029ea736444eab9c10a2105"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "core-remoteviews-1.1.0-rc01-versionMetadata.json",
+          "url": "core-remoteviews-1.1.0-rc01-versionMetadata.json",
+          "size": 28056,
+          "sha512": "c138f2a0531b0b003e6faed04a49a913cbdfd7b85307509a3cddcc313b1b980261f3421475f461528ee90fdd1625b51964497f26d5cf0c96f64d418be9407947",
+          "sha256": "268dfc74cd1e65c1d11e2d395243301d8cbf87a42d06526072db9f62d6211fa9",
+          "sha1": "4f9db05b8075b71e329d7058c2c66fb324eceeef",
+          "md5": "004664c9215f108e5cf22c172bf87ec5"
+        }
+      ]
+    }
+  ]
+}

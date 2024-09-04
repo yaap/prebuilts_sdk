@@ -1,0 +1,13 @@
+// Signature format: 2.0
+package android.icu.util {
+
+  public abstract class Calendar implements java.lang.Cloneable java.lang.Comparable<android.icu.util.Calendar> java.io.Serializable {
+    field @Deprecated protected static final int BASE_FIELD_COUNT;
+  }
+
+  public class JapaneseCalendar extends android.icu.util.GregorianCalendar {
+    field @Deprecated public static final int CURRENT_ERA;
+  }
+
+}
+

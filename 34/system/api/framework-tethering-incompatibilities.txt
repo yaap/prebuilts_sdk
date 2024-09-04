@@ -1,0 +1,14 @@
+// Baseline format: 1.0
+
+AddedFinal: android.net.TetheringManager.TetheringRequest#getClientStaticIpv4Address(android.net.LinkAddress):
+    Method android.net.TetheringManager.TetheringRequest.getClientStaticIpv4Address has added 'final' qualifier
+AddedFinal: android.net.TetheringManager.TetheringRequest#getConnectivityScope(int):
+    Method android.net.TetheringManager.TetheringRequest.getConnectivityScope has added 'final' qualifier
+AddedFinal: android.net.TetheringManager.TetheringRequest#getLocalIpv4Address(android.net.LinkAddress):
+    Method android.net.TetheringManager.TetheringRequest.getLocalIpv4Address has added 'final' qualifier
+AddedFinal: android.net.TetheringManager.TetheringRequest#getShouldShowEntitlementUi(boolean):
+    Method android.net.TetheringManager.TetheringRequest.getShouldShowEntitlementUi has added 'final' qualifier
+AddedFinal: android.net.TetheringManager.TetheringRequest#getTetheringType(int):
+    Method android.net.TetheringManager.TetheringRequest.getTetheringType has added 'final' qualifier
+AddedFinal: android.net.TetheringManager.TetheringRequest#isExemptFromEntitlementCheck:
+    Method android.net.TetheringManager.TetheringRequest.isExemptFromEntitlementCheck has added 'final' qualifier

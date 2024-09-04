@@ -1,0 +1,120 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.test.uiautomator",
+    "module": "uiautomator",
+    "version": "2.4.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8-rc-1"
+    }
+  },
+  "variants": [
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "uiautomator-2.4.0-alpha01-sources.jar",
+          "url": "uiautomator-2.4.0-alpha01-sources.jar",
+          "size": 93528,
+          "sha512": "f2606acd54cff99c7779205ef524c249ba719edba82aec9e89b40726fa4694dc052d503e316290d051961062cca74f137eaab77f50f8c52f63d807d8b4499ad0",
+          "sha256": "1f9e5a57a34cd53ecd0570584b723437dbfda49bccafef7c20edde2d11ad7dd3",
+          "sha1": "a4a62fb6131ad4b1d01e9e31df8fdcff32e1af0e",
+          "md5": "67a7d9ab8e88e2bd0f09fb7dc53c2c0f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "uiautomator-2.4.0-alpha01.aar",
+          "url": "uiautomator-2.4.0-alpha01.aar",
+          "size": 126172,
+          "sha512": "f5af99d2954a89f572722db7c595f1ca131fcbcc9079d5c1eb0057e4eb68829ffcc7c45164e101b1a7ab643600b2492747a01592dad4fe3b1193c51e4432a80f",
+          "sha256": "cd635d58126553a96ef5d68b8ed8002f1a7c09072f9e0d5b094f43171d5510c6",
+          "sha1": "da685e89e0e23872e5187881389889d05ac812ca",
+          "md5": "9fc34d192b5c3937f3beef8c0204ee75"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "androidx.tracing",
+          "module": "tracing",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "junit",
+          "module": "junit",
+          "version": {
+            "requires": "4.13.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "uiautomator-2.4.0-alpha01.aar",
+          "url": "uiautomator-2.4.0-alpha01.aar",
+          "size": 126172,
+          "sha512": "f5af99d2954a89f572722db7c595f1ca131fcbcc9079d5c1eb0057e4eb68829ffcc7c45164e101b1a7ab643600b2492747a01592dad4fe3b1193c51e4432a80f",
+          "sha256": "cd635d58126553a96ef5d68b8ed8002f1a7c09072f9e0d5b094f43171d5510c6",
+          "sha1": "da685e89e0e23872e5187881389889d05ac812ca",
+          "md5": "9fc34d192b5c3937f3beef8c0204ee75"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "uiautomator-2.4.0-alpha01-versionMetadata.json",
+          "url": "uiautomator-2.4.0-alpha01-versionMetadata.json",
+          "size": 26750,
+          "sha512": "6d0c6cc2986e1183cacb598ddb26a9a252b4b38e56a4578309443f74603b5c617c1cae4c50975e5daa6f64a1765618dcbc4c4999c111d1f3005e10bf4303d806",
+          "sha256": "5ab374c37b98ebdccaa10cc26f53a133b5ab17f80962e800cb79ddf5dcb1ccb7",
+          "sha1": "306403d6620f70b28a58121297f3748a98d067d7",
+          "md5": "b9327be6c144e89fa975f2d642232b85"
+        }
+      ]
+    }
+  ]
+}

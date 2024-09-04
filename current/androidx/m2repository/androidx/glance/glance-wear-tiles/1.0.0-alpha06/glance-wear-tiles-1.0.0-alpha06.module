@@ -1,0 +1,213 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.glance",
+    "module": "glance-wear-tiles",
+    "version": "1.0.0-alpha06",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "glance-wear-tiles-1.0.0-alpha06-sources.jar",
+          "url": "glance-wear-tiles-1.0.0-alpha06-sources.jar",
+          "size": 31182,
+          "sha512": "3941d92d846d4aa333f48124461a00d7b84576a189b91999084dff4d55ca975719294235e959edf27286dc6c649a325823faee961eed9bd4e82880b79cc55032",
+          "sha256": "f8f6ca33f66a74af934c765452ff244b43d9af9f098d113efd6a838f7bfd30e4",
+          "sha1": "69594f76e953356438b119491d36b8aa6aa67a01",
+          "md5": "4fcf71e463a006ddc5bf7f78ebe20a4a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-graphics",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-unit",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "androidx.glance",
+          "module": "glance",
+          "version": {
+            "requires": "1.1.0-rc01"
+          }
+        },
+        {
+          "group": "androidx.glance",
+          "module": "glance-template",
+          "version": {
+            "requires": "1.0.0-alpha06"
+          }
+        },
+        {
+          "group": "androidx.wear.tiles",
+          "module": "tiles",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "glance-wear-tiles-1.0.0-alpha06.aar",
+          "url": "glance-wear-tiles-1.0.0-alpha06.aar",
+          "size": 205588,
+          "sha512": "6bbc4ba5da4b6e79af00dd272be29bcadc0cb432a8a519067a806faa37405e9550aeb00611b622197d03161da8d36c8a7e79e20555243841815b511df19bc19a",
+          "sha256": "5adfb108b15804713ac0945fa9e376b079826727147406e0887a0f1036f069f9",
+          "sha1": "35068bb6793624f3909b4c84b1c2f999924b794a",
+          "md5": "774d4cb88f42b1510a674485b2530e2e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-graphics",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-unit",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "androidx.glance",
+          "module": "glance",
+          "version": {
+            "requires": "1.1.0-rc01"
+          }
+        },
+        {
+          "group": "androidx.glance",
+          "module": "glance-template",
+          "version": {
+            "requires": "1.0.0-alpha06"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-service",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "androidx.wear.tiles",
+          "module": "tiles",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-guava",
+          "version": {
+            "requires": "1.7.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "glance-wear-tiles-1.0.0-alpha06.aar",
+          "url": "glance-wear-tiles-1.0.0-alpha06.aar",
+          "size": 205588,
+          "sha512": "6bbc4ba5da4b6e79af00dd272be29bcadc0cb432a8a519067a806faa37405e9550aeb00611b622197d03161da8d36c8a7e79e20555243841815b511df19bc19a",
+          "sha256": "5adfb108b15804713ac0945fa9e376b079826727147406e0887a0f1036f069f9",
+          "sha1": "35068bb6793624f3909b4c84b1c2f999924b794a",
+          "md5": "774d4cb88f42b1510a674485b2530e2e"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "glance-wear-tiles-1.0.0-alpha06-versionMetadata.json",
+          "url": "glance-wear-tiles-1.0.0-alpha06-versionMetadata.json",
+          "size": 11861,
+          "sha512": "1c8c770e85b900b41b271220135bcc4904ac62c9a4ff7bf80ebd3b22fc0297e3a1f3cf8b2ee50273046fa40da1b28954edfcf7c8e06f2f680a1aff5535d8f493",
+          "sha256": "c0d1e5a09ec60fb053026024138db28850edbaa653a149982d6d323916ea689a",
+          "sha1": "2ea2f3c91b7b99d138dc195e7cf95bf2f649bb72",
+          "md5": "0c424728df42b1c3a9c9c089e05d73d6"
+        }
+      ]
+    }
+  ]
+}

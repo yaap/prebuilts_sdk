@@ -1,0 +1,41 @@
+version: "1.7.0-beta02"
+dependency_list {
+  dependency {
+    group_id: "androidx.compose.foundation"
+    artifact_id: "foundation-layout-android"
+    version: "1.7.0-beta02"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.compose.foundation"
+    artifact_id: "foundation-layout-desktop"
+    version: "1.7.0-beta02"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.compose.ui"
+    artifact_id: "ui"
+    version: "1.6.0"
+    is_tip_of_tree: false
+  }
+}
+release_checklist {
+}
+build_id: "androidx.compose.foundation"
+group_id: "androidx.compose.foundation"
+artifact_id: "foundation-layout"
+path: "/compose/foundation/foundation-layout"
+sha: "3264c1f21ddfe2acf96a1d034f78367662cf9f65"
+require_same_version_group_build: true
+project_zip_path: "per-project-zips/androidx.compose.foundation-foundation-layout-all-11879057-1.7.0-beta02.zip"
+kotlin_version: "1.9.24"
+dependency_constraint_list {
+  dependency {
+    group_id: "androidx.compose.foundation"
+    artifact_id: "foundation"
+    version: "1.7.0-beta02"
+    is_tip_of_tree: true
+  }
+}
+should_publish_docs: true
+is_kmp: true

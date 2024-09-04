@@ -1,0 +1,59 @@
+version: "2.5.0-alpha04"
+dependency_list {
+  dependency {
+    group_id: "androidx.annotation"
+    artifact_id: "annotation"
+    version: "1.8.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.sqlite"
+    artifact_id: "sqlite-android"
+    version: "2.5.0-alpha04"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.sqlite"
+    artifact_id: "sqlite-jvm"
+    version: "2.5.0-alpha04"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.sqlite"
+    artifact_id: "sqlite-linuxx64"
+    version: "2.5.0-alpha04"
+    is_tip_of_tree: true
+  }
+}
+release_checklist {
+}
+build_id: "androidx.sqlite"
+group_id: "androidx.sqlite"
+artifact_id: "sqlite"
+path: "/sqlite/sqlite"
+sha: "532d983f8461184e5a33dce4be7b62053acc967d"
+require_same_version_group_build: true
+project_zip_path: "per-project-zips/androidx.sqlite-sqlite-all-11937575-2.5.0-alpha04.zip"
+kotlin_version: "1.9.24"
+dependency_constraint_list {
+  dependency {
+    group_id: "androidx.sqlite"
+    artifact_id: "sqlite-bundled"
+    version: "2.5.0-alpha04"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.sqlite"
+    artifact_id: "sqlite-framework"
+    version: "2.5.0-alpha04"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.sqlite"
+    artifact_id: "sqlite-ktx"
+    version: "2.5.0-alpha04"
+    is_tip_of_tree: true
+  }
+}
+should_publish_docs: true
+is_kmp: true

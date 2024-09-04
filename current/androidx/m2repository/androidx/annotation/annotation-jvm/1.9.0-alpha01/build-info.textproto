@@ -1,0 +1,89 @@
+version: "1.9.0-alpha01"
+dependency_list {
+  dependency {
+    group_id: "androidx.annotation"
+    artifact_id: "annotation-androidnativearm32"
+    version: "1.9.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.annotation"
+    artifact_id: "annotation-androidnativearm64"
+    version: "1.9.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.annotation"
+    artifact_id: "annotation-androidnativex64"
+    version: "1.9.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.annotation"
+    artifact_id: "annotation-androidnativex86"
+    version: "1.9.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.annotation"
+    artifact_id: "annotation-iosarm64"
+    version: "1.9.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.annotation"
+    artifact_id: "annotation-iossimulatorarm64"
+    version: "1.9.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.annotation"
+    artifact_id: "annotation-iosx64"
+    version: "1.9.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.annotation"
+    artifact_id: "annotation-jvm"
+    version: "1.9.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.annotation"
+    artifact_id: "annotation-linuxarm64"
+    version: "1.9.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.annotation"
+    artifact_id: "annotation-linuxx64"
+    version: "1.9.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.annotation"
+    artifact_id: "annotation-macosarm64"
+    version: "1.9.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.annotation"
+    artifact_id: "annotation-macosx64"
+    version: "1.9.0-alpha01"
+    is_tip_of_tree: true
+  }
+}
+release_checklist {
+}
+build_id: "androidx.annotation"
+group_id: "androidx.annotation"
+artifact_id: "annotation"
+path: "/annotation/annotation"
+sha: "8e24ec7cf4ee1c5afe2b4a3a108f926420140662"
+require_same_version_group_build: false
+project_zip_path: "per-project-zips/androidx.annotation-annotation-all-11954666-1.9.0-alpha01.zip"
+kotlin_version: "1.9.24"
+dependency_constraint_list {
+}
+should_publish_docs: true
+is_kmp: true

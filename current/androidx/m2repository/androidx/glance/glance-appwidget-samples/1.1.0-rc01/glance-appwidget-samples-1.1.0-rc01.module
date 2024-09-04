@@ -1,0 +1,368 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.glance",
+    "module": "glance-appwidget-samples",
+    "version": "1.1.0-rc01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.glance",
+          "module": "glance",
+          "version": {
+            "requires": "1.1.0-rc01"
+          },
+          "reason": "glance-appwidget-samples is in atomic group androidx.glance"
+        },
+        {
+          "group": "androidx.glance",
+          "module": "glance-appwidget",
+          "version": {
+            "requires": "1.1.0-rc01"
+          },
+          "reason": "glance-appwidget-samples is in atomic group androidx.glance"
+        },
+        {
+          "group": "androidx.glance",
+          "module": "glance-appwidget-external-protobuf",
+          "version": {
+            "requires": "1.1.0-rc01"
+          },
+          "reason": "glance-appwidget-samples is in atomic group androidx.glance"
+        },
+        {
+          "group": "androidx.glance",
+          "module": "glance-appwidget-preview",
+          "version": {
+            "requires": "1.1.0-rc01"
+          },
+          "reason": "glance-appwidget-samples is in atomic group androidx.glance"
+        },
+        {
+          "group": "androidx.glance",
+          "module": "glance-appwidget-proto",
+          "version": {
+            "requires": "1.1.0-rc01"
+          },
+          "reason": "glance-appwidget-samples is in atomic group androidx.glance"
+        },
+        {
+          "group": "androidx.glance",
+          "module": "glance-appwidget-testing",
+          "version": {
+            "requires": "1.1.0-rc01"
+          },
+          "reason": "glance-appwidget-samples is in atomic group androidx.glance"
+        },
+        {
+          "group": "androidx.glance",
+          "module": "glance-preview",
+          "version": {
+            "requires": "1.1.0-rc01"
+          },
+          "reason": "glance-appwidget-samples is in atomic group androidx.glance"
+        },
+        {
+          "group": "androidx.glance",
+          "module": "glance-material",
+          "version": {
+            "requires": "1.1.0-rc01"
+          },
+          "reason": "glance-appwidget-samples is in atomic group androidx.glance"
+        },
+        {
+          "group": "androidx.glance",
+          "module": "glance-material3",
+          "version": {
+            "requires": "1.1.0-rc01"
+          },
+          "reason": "glance-appwidget-samples is in atomic group androidx.glance"
+        },
+        {
+          "group": "androidx.glance",
+          "module": "glance-testing",
+          "version": {
+            "requires": "1.1.0-rc01"
+          },
+          "reason": "glance-appwidget-samples is in atomic group androidx.glance"
+        }
+      ],
+      "files": [
+        {
+          "name": "glance-appwidget-samples-1.1.0-rc01-sources.jar",
+          "url": "glance-appwidget-samples-1.1.0-rc01-sources.jar",
+          "size": 3091,
+          "sha512": "6111601a9810324a0c3e380c38ac235780c43fad834529637a9ddcb5fc832ba7ae6f0906268d15c4c327fce813bc934dc8e61ff37e0a7076a507a864e323abb5",
+          "sha256": "e5e582d3aeb53bd1fb304541f21c6b8c8c96daabb4d09e1b06539f6cf39e2736",
+          "sha1": "0fa5a0a1cefcb91a5a8f8c1527f363db25fb4d8d",
+          "md5": "3817aedfe54a118f0bd6aeca47ea79da"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "androidx.glance",
+          "module": "glance",
+          "version": {
+            "requires": "1.1.0-rc01"
+          },
+          "reason": "glance-appwidget-samples is in atomic group androidx.glance"
+        },
+        {
+          "group": "androidx.glance",
+          "module": "glance-appwidget",
+          "version": {
+            "requires": "1.1.0-rc01"
+          },
+          "reason": "glance-appwidget-samples is in atomic group androidx.glance"
+        },
+        {
+          "group": "androidx.glance",
+          "module": "glance-appwidget-external-protobuf",
+          "version": {
+            "requires": "1.1.0-rc01"
+          },
+          "reason": "glance-appwidget-samples is in atomic group androidx.glance"
+        },
+        {
+          "group": "androidx.glance",
+          "module": "glance-appwidget-preview",
+          "version": {
+            "requires": "1.1.0-rc01"
+          },
+          "reason": "glance-appwidget-samples is in atomic group androidx.glance"
+        },
+        {
+          "group": "androidx.glance",
+          "module": "glance-appwidget-proto",
+          "version": {
+            "requires": "1.1.0-rc01"
+          },
+          "reason": "glance-appwidget-samples is in atomic group androidx.glance"
+        },
+        {
+          "group": "androidx.glance",
+          "module": "glance-appwidget-testing",
+          "version": {
+            "requires": "1.1.0-rc01"
+          },
+          "reason": "glance-appwidget-samples is in atomic group androidx.glance"
+        },
+        {
+          "group": "androidx.glance",
+          "module": "glance-preview",
+          "version": {
+            "requires": "1.1.0-rc01"
+          },
+          "reason": "glance-appwidget-samples is in atomic group androidx.glance"
+        },
+        {
+          "group": "androidx.glance",
+          "module": "glance-material",
+          "version": {
+            "requires": "1.1.0-rc01"
+          },
+          "reason": "glance-appwidget-samples is in atomic group androidx.glance"
+        },
+        {
+          "group": "androidx.glance",
+          "module": "glance-material3",
+          "version": {
+            "requires": "1.1.0-rc01"
+          },
+          "reason": "glance-appwidget-samples is in atomic group androidx.glance"
+        },
+        {
+          "group": "androidx.glance",
+          "module": "glance-testing",
+          "version": {
+            "requires": "1.1.0-rc01"
+          },
+          "reason": "glance-appwidget-samples is in atomic group androidx.glance"
+        }
+      ],
+      "files": [
+        {
+          "name": "glance-appwidget-samples-1.1.0-rc01.aar",
+          "url": "glance-appwidget-samples-1.1.0-rc01.aar",
+          "size": 35882,
+          "sha512": "78f70db90f90d6214046a07282e4c8bef4feeb2ca773f848b7d70062de331d7b9eb48d2462027899d1d553c4b727853df8dc5ecb87b443f2d41040927c385775",
+          "sha256": "1ad47af4047ee9866291e29b0d90857de0660f4da016bb3ab4cb3629ec63ed3f",
+          "sha1": "e58314110598ffae9f7e21c75b05bf914c86b6b7",
+          "md5": "9c72cc73de20bbd19e7add5348050c56"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.glance",
+          "module": "glance",
+          "version": {
+            "requires": "1.1.0-rc01"
+          }
+        },
+        {
+          "group": "androidx.glance",
+          "module": "glance-appwidget",
+          "version": {
+            "requires": "1.1.0-rc01"
+          }
+        },
+        {
+          "group": "androidx.work",
+          "module": "work-runtime",
+          "version": {
+            "requires": "2.8.1"
+          }
+        },
+        {
+          "group": "androidx.work",
+          "module": "work-runtime-ktx",
+          "version": {
+            "requires": "2.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "androidx.glance",
+          "module": "glance",
+          "version": {
+            "requires": "1.1.0-rc01"
+          },
+          "reason": "glance-appwidget-samples is in atomic group androidx.glance"
+        },
+        {
+          "group": "androidx.glance",
+          "module": "glance-appwidget",
+          "version": {
+            "requires": "1.1.0-rc01"
+          },
+          "reason": "glance-appwidget-samples is in atomic group androidx.glance"
+        },
+        {
+          "group": "androidx.glance",
+          "module": "glance-appwidget-external-protobuf",
+          "version": {
+            "requires": "1.1.0-rc01"
+          },
+          "reason": "glance-appwidget-samples is in atomic group androidx.glance"
+        },
+        {
+          "group": "androidx.glance",
+          "module": "glance-appwidget-preview",
+          "version": {
+            "requires": "1.1.0-rc01"
+          },
+          "reason": "glance-appwidget-samples is in atomic group androidx.glance"
+        },
+        {
+          "group": "androidx.glance",
+          "module": "glance-appwidget-proto",
+          "version": {
+            "requires": "1.1.0-rc01"
+          },
+          "reason": "glance-appwidget-samples is in atomic group androidx.glance"
+        },
+        {
+          "group": "androidx.glance",
+          "module": "glance-appwidget-testing",
+          "version": {
+            "requires": "1.1.0-rc01"
+          },
+          "reason": "glance-appwidget-samples is in atomic group androidx.glance"
+        },
+        {
+          "group": "androidx.glance",
+          "module": "glance-preview",
+          "version": {
+            "requires": "1.1.0-rc01"
+          },
+          "reason": "glance-appwidget-samples is in atomic group androidx.glance"
+        },
+        {
+          "group": "androidx.glance",
+          "module": "glance-material",
+          "version": {
+            "requires": "1.1.0-rc01"
+          },
+          "reason": "glance-appwidget-samples is in atomic group androidx.glance"
+        },
+        {
+          "group": "androidx.glance",
+          "module": "glance-material3",
+          "version": {
+            "requires": "1.1.0-rc01"
+          },
+          "reason": "glance-appwidget-samples is in atomic group androidx.glance"
+        },
+        {
+          "group": "androidx.glance",
+          "module": "glance-testing",
+          "version": {
+            "requires": "1.1.0-rc01"
+          },
+          "reason": "glance-appwidget-samples is in atomic group androidx.glance"
+        }
+      ],
+      "files": [
+        {
+          "name": "glance-appwidget-samples-1.1.0-rc01.aar",
+          "url": "glance-appwidget-samples-1.1.0-rc01.aar",
+          "size": 35882,
+          "sha512": "78f70db90f90d6214046a07282e4c8bef4feeb2ca773f848b7d70062de331d7b9eb48d2462027899d1d553c4b727853df8dc5ecb87b443f2d41040927c385775",
+          "sha256": "1ad47af4047ee9866291e29b0d90857de0660f4da016bb3ab4cb3629ec63ed3f",
+          "sha1": "e58314110598ffae9f7e21c75b05bf914c86b6b7",
+          "md5": "9c72cc73de20bbd19e7add5348050c56"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.constraintlayout",
+    "module": "constraintlayout",
+    "version": "2.2.0-alpha13",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8-rc-1"
+    }
+  },
+  "variants": [
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "constraintlayout-2.2.0-alpha13-sources.jar",
+          "url": "constraintlayout-2.2.0-alpha13-sources.jar",
+          "size": 291827,
+          "sha512": "8abc0365b6b8abcdeab4b2ff3a8b5b35bd6be773edec7b39f9a7c4ad9aa6ddef897653c750ac17c3d9ae7217cb5dabbab686d6bb30c82116a10efee90ad8e8c7",
+          "sha256": "fc116199a2c85d68b6dc884b1b5be9afad356b70b5dba1a006144fb5fb39a3a6",
+          "sha1": "afaf0ee50d7882133381794ab420f039b2a2c009",
+          "md5": "fd442e26dbc12f93069b99d0ec438cad"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "constraintlayout-2.2.0-alpha13.aar",
+          "url": "constraintlayout-2.2.0-alpha13.aar",
+          "size": 478573,
+          "sha512": "a575d464e80f564bc0c61e70dac7fbbbeda6696b088344a736448771c86e01844e42f98cc35a5b73c7d8a7f5c0ab73769f32312e02f0c0dff98c1c4ba815a6eb",
+          "sha256": "c30129ea85ea3283e88dca39c9a63f4e858fe3aff96f75248606ac416dea55a3",
+          "sha1": "f7eb030a459ea507fe3f2551b12b04aad2a12a37",
+          "md5": "48354adca31a8c10b0320a5f189deaed"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout-core",
+          "version": {
+            "requires": "1.1.0-alpha13"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "androidx.profileinstaller",
+          "module": "profileinstaller",
+          "version": {
+            "requires": "1.3.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "constraintlayout-2.2.0-alpha13.aar",
+          "url": "constraintlayout-2.2.0-alpha13.aar",
+          "size": 478573,
+          "sha512": "a575d464e80f564bc0c61e70dac7fbbbeda6696b088344a736448771c86e01844e42f98cc35a5b73c7d8a7f5c0ab73769f32312e02f0c0dff98c1c4ba815a6eb",
+          "sha256": "c30129ea85ea3283e88dca39c9a63f4e858fe3aff96f75248606ac416dea55a3",
+          "sha1": "f7eb030a459ea507fe3f2551b12b04aad2a12a37",
+          "md5": "48354adca31a8c10b0320a5f189deaed"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "constraintlayout-2.2.0-alpha13-versionMetadata.json",
+          "url": "constraintlayout-2.2.0-alpha13-versionMetadata.json",
+          "size": 108796,
+          "sha512": "3c9f2084960d01d752fdbb116eb123dfcae82a0c920f166faf2967269c9ddf2a0fce0d5a44fc1085f9dfe49cba6a0211ecc14321cb8d186f35f27947352037dd",
+          "sha256": "012e2c86465b04740ff6f4e5947b19876d3e6c8faba7ac26dabdd6ad64722d85",
+          "sha1": "82f8daa97c95b9c58563387261953cbe58293152",
+          "md5": "1cfd68c77235a4c997002ae403792c8d"
+        }
+      ]
+    }
+  ]
+}

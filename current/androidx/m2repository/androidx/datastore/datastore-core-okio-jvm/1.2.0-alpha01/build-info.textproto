@@ -1,0 +1,95 @@
+version: "1.2.0-alpha01"
+dependency_list {
+  dependency {
+    group_id: "androidx.datastore"
+    artifact_id: "datastore-core"
+    version: "1.2.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.datastore"
+    artifact_id: "datastore-core-okio-jvm"
+    version: "1.2.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.datastore"
+    artifact_id: "datastore-core-okio-linuxx64"
+    version: "1.2.0-alpha01"
+    is_tip_of_tree: true
+  }
+}
+release_checklist {
+}
+build_id: "androidx.datastore"
+group_id: "androidx.datastore"
+artifact_id: "datastore-core-okio"
+path: "/datastore/datastore-core-okio"
+sha: "c1559fca7faae47d40a3c498fb77ca2707c1f56c"
+require_same_version_group_build: true
+project_zip_path: "per-project-zips/androidx.datastore-datastore-core-okio-all-11909744-1.2.0-alpha01.zip"
+kotlin_version: "1.9.24"
+dependency_constraint_list {
+  dependency {
+    group_id: "androidx.datastore"
+    artifact_id: "datastore"
+    version: "1.2.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.datastore"
+    artifact_id: "datastore-core"
+    version: "1.2.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.datastore"
+    artifact_id: "datastore-preferences"
+    version: "1.2.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.datastore"
+    artifact_id: "datastore-preferences-core"
+    version: "1.2.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.datastore"
+    artifact_id: "datastore-preferences-external-protobuf"
+    version: "1.2.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.datastore"
+    artifact_id: "datastore-preferences-proto"
+    version: "1.2.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.datastore"
+    artifact_id: "datastore-preferences-rxjava2"
+    version: "1.2.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.datastore"
+    artifact_id: "datastore-preferences-rxjava3"
+    version: "1.2.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.datastore"
+    artifact_id: "datastore-rxjava2"
+    version: "1.2.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.datastore"
+    artifact_id: "datastore-rxjava3"
+    version: "1.2.0-alpha01"
+    is_tip_of_tree: true
+  }
+}
+should_publish_docs: true
+is_kmp: true

@@ -1,0 +1,28 @@
+version: "1.0.0"
+dependency_list {
+}
+release_checklist {
+}
+build_id: "androidx.tracing"
+group_id: "androidx.tracing"
+artifact_id: "tracing-perfetto-binary"
+path: "/tracing/tracing-perfetto-binary"
+sha: "ad6bfd28037d5d5295d6de24cd2754dceb712b74"
+require_same_version_group_build: true
+project_zip_path: "per-project-zips/androidx.tracing-tracing-perfetto-binary-all-11623079-1.0.0.zip"
+kotlin_version: "1.9.23"
+dependency_constraint_list {
+  dependency {
+    group_id: "androidx.tracing"
+    artifact_id: "tracing-perfetto"
+    version: "1.0.0"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.tracing"
+    artifact_id: "tracing-perfetto-handshake"
+    version: "1.0.0"
+    is_tip_of_tree: true
+  }
+}
+should_publish_docs: false

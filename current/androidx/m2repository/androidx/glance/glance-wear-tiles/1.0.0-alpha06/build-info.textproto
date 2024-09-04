@@ -1,0 +1,65 @@
+version: "1.0.0-alpha06"
+dependency_list {
+  dependency {
+    group_id: "androidx.compose.runtime"
+    artifact_id: "runtime"
+    version: "1.1.1"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.compose.ui"
+    artifact_id: "ui-graphics"
+    version: "1.1.1"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.compose.ui"
+    artifact_id: "ui-unit"
+    version: "1.1.1"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.glance"
+    artifact_id: "glance"
+    version: "1.1.0-rc01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.glance"
+    artifact_id: "glance-template"
+    version: "1.0.0-alpha06"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.lifecycle"
+    artifact_id: "lifecycle-runtime-ktx"
+    version: "2.6.1"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.lifecycle"
+    artifact_id: "lifecycle-service"
+    version: "2.6.1"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.wear.tiles"
+    artifact_id: "tiles"
+    version: "1.1.0"
+    is_tip_of_tree: false
+  }
+}
+release_checklist {
+}
+build_id: "androidx.glance"
+group_id: "androidx.glance"
+artifact_id: "glance-wear-tiles"
+path: "/glance/glance-wear-tiles"
+sha: "6a548cd410cbbc419dd2b8444d893385d14e20d4"
+require_same_version_group_build: true
+project_zip_path: "per-project-zips/androidx.glance-glance-wear-tiles-all-11937636-1.0.0-alpha06.zip"
+kotlin_version: "1.9.24"
+dependency_constraint_list {
+}
+should_publish_docs: true
+is_kmp: false

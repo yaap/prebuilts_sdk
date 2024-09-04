@@ -1,0 +1,41 @@
+version: "1.5.0-alpha01"
+dependency_list {
+  dependency {
+    group_id: "androidx.annotation"
+    artifact_id: "annotation"
+    version: "1.7.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.collection"
+    artifact_id: "collection-jvm"
+    version: "1.5.0-alpha01"
+    is_tip_of_tree: true
+  }
+  dependency {
+    group_id: "androidx.collection"
+    artifact_id: "collection-linuxx64"
+    version: "1.5.0-alpha01"
+    is_tip_of_tree: true
+  }
+}
+release_checklist {
+}
+build_id: "androidx.collection"
+group_id: "androidx.collection"
+artifact_id: "collection"
+path: "/collection/collection"
+sha: "3264c1f21ddfe2acf96a1d034f78367662cf9f65"
+require_same_version_group_build: true
+project_zip_path: "per-project-zips/androidx.collection-collection-all-11879057-1.5.0-alpha01.zip"
+kotlin_version: "1.9.24"
+dependency_constraint_list {
+  dependency {
+    group_id: "androidx.collection"
+    artifact_id: "collection-ktx"
+    version: "1.5.0-alpha01"
+    is_tip_of_tree: true
+  }
+}
+should_publish_docs: true
+is_kmp: true

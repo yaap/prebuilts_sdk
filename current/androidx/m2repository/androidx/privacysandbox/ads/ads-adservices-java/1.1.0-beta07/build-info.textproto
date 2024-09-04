@@ -1,0 +1,47 @@
+version: "1.1.0-beta07"
+dependency_list {
+  dependency {
+    group_id: "androidx.annotation"
+    artifact_id: "annotation"
+    version: "1.2.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.concurrent"
+    artifact_id: "concurrent-futures"
+    version: "1.1.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.core"
+    artifact_id: "core-ktx"
+    version: "1.8.0"
+    is_tip_of_tree: false
+  }
+  dependency {
+    group_id: "androidx.privacysandbox.ads"
+    artifact_id: "ads-adservices"
+    version: "1.1.0-beta07"
+    is_tip_of_tree: true
+  }
+}
+release_checklist {
+}
+build_id: "androidx.privacysandbox.ads"
+group_id: "androidx.privacysandbox.ads"
+artifact_id: "ads-adservices-java"
+path: "/privacysandbox/ads/ads-adservices-java"
+sha: "319668a0bb17aaa0caa7dda23b37b170b1bf02cd"
+require_same_version_group_build: true
+project_zip_path: "per-project-zips/androidx.privacysandbox.ads-ads-adservices-java-all-11904167-1.1.0-beta07.zip"
+kotlin_version: "1.9.24"
+dependency_constraint_list {
+  dependency {
+    group_id: "androidx.privacysandbox.ads"
+    artifact_id: "ads-adservices"
+    version: "1.1.0-beta07"
+    is_tip_of_tree: true
+  }
+}
+should_publish_docs: true
+is_kmp: false
